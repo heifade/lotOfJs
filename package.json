@@ -1,0 +1,36 @@
+{
+  "name": "lotOfJs",
+  "version": "1.0.0-beta1",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "bin": {
+    "lotOfJs": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "start": "ts-node ./src/index.ts"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "typings"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.8",
+    "@types/webpack": "^4.41.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "nyc": "^15.0.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
